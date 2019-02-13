@@ -8,7 +8,6 @@ public class MyThread extends Thread {
 
     @Override
     public void run() {
-
         System.out.println("线程 " + Thread.currentThread().getName() + " 在帮我干活");
     }
 }
